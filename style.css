@@ -1,3 +1,20 @@
+.container {
+    width: 375px;
+    height: 125px;
+    position: absolute;
+    z-index: 1;
+}
+figure    {
+    position: absolute;
+    z-index: 2;
+}
+img {
+    float: left;
+    width: 750px;
+    height: 350px;
+    object-fit: cover;
+    background-position: center;
+}
 #slider {
     overflow: hidden;
 }
